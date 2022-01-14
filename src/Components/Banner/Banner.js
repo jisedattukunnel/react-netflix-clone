@@ -13,10 +13,11 @@ function Banner() {
             setMovie(res.data.results[num])
         })
     }, [])
+        
 
     return (
         <div>
-            <div
+            <div class="col-md-12 col-md-6 col-md-4 "
             style={{backgroundImage:`url(${movie ? imageUrl+movie.backdrop_path : ""})`}}
                 className="banner">
                 <div className="content"> 

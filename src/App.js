@@ -16,6 +16,9 @@ function App() {
         <RowPost url={trending} title='Trending' isSmall />
         <RowPost url={action} title='Action' isSmall />
         <RowPost url={comedy} title='Comedy' isSmall />
+        <br/>
+        <br/>
+        <br/>
         <Footer/>
     </div>
   )
