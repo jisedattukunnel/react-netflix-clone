@@ -1,0 +1,14 @@
+.footerMain{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    color: white;
+    font-size: 30px;
+}
+
+.footerItems{
+    font-size: 20px;
+    right: 50px;
+}
